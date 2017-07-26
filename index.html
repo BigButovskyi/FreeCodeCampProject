@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet/less" type="text/css" href="less.less" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css.css" />
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
-    <script src="js.js"></script>
 </head>
 <body>
+
 <div class="top">
-    <div class="container well">
+    <div class="container well" id="main_well">
         <div class="title text-center">
             <div id="Jobs">Steve Jobs</div>
             <div id="the_man"><em>The Man Who Thought Different</em></div>
             <div class="well" style="background-color: white" id="image">
-                <img src="http://static5.businessinsider.com/image/53f779dc6bb3f7f305edb7b1-1190-625/a-young-steve-jobs-smelled-so-bad-he-had-to-be-put-on-the-night-shift-at-atari.jpg"
+                <img alt="Steve Job`s photo" src="http://static5.businessinsider.com/image/53f779dc6bb3f7f305edb7b1-1190-625/a-young-steve-jobs-smelled-so-bad-he-had-to-be-put-on-the-night-shift-at-atari.jpg"
                      class="img-responsive img-rounded">
                 <div id="first_photo">Steve Job's first photo as the CEO of Appple Company</div>
             </div>
@@ -94,22 +97,24 @@
                     </li>
                 </ul>
             </div>
+        </div>
 
+        <div class="container" id="bot">
+            <div class="col-xs-offset-2 col-xs-7 well" id="quote">
+                <div id="quote1">
+                    <h4>"We started out to get a computer in the hands of everyday people,<br> and we succeeded beyond our wildest dreams."
+                    </h4>
+                </div>
+                <div id="who_said">
+                    <em>- Steve Jobs</em>
+                </div>
+            </div>
+            <div class="col-xs-offset-2 col-xs-7 text-center" id="wiki">
+                <a href="https://en.wikipedia.org/wiki/Steve_Jobs" target="_blank"><h4>More information about Steve Jobs on the Wikipedia</h4></a>
+            </div>
         </div>
     </div>
 </div>
-
-
-<div class="bottom">
-
-</div>
-
-
-
-
-
-
-
 
 
 
@@ -124,5 +129,9 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- JS file -->
+<script src="js.js"></script>
+
 </body>
 </html>
